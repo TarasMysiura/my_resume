@@ -18,11 +18,36 @@
 @import url(./q13.css);
 @import url(./q14.css);
 
-.resume-company-name{
-    max-width: 420px;
+.resume-company-name {
+  max-width: 420px;
 }
 .pb-5 {
-    padding-bottom: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.skills-project {
+  font-size: 0.75rem;
+  margin-left: 16px;
+}
+.role {
+  font-weight: 400;
+}
+.link-project {
+  height: 20px;
+  width: 20px;
+  margin-bottom:6px;
+}
+.project-item-wrapper {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 16px;
+  /* margin-bottom: 8px; */
+}
+.project-item-name {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 0;
 }
 
 /* * Risen - Bootstrap 5 Resume Template For Developers
