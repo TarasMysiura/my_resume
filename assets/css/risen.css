@@ -17,6 +17,8 @@
 @import url(./q12.css);
 @import url(./q13.css);
 @import url(./q14.css);
+@import url(./cursor-effect.css);
+@import url(./btn-effects.css);
 
 .resume-company-name {
   max-width: 420px;
@@ -49,6 +51,32 @@
   align-items: center;
   margin-bottom: 0;
 }
+
+/* body{ background-color: #000; } */
+
+.animated{
+  display: flex;
+  /* margin-top: 20%; */
+  align-items: center;
+  justify-content: center;
+}
+.let{
+  color: #fff;
+  /* font-size: 70px; */
+  /* font-family: cursive; */
+  /* letter-spacing: 3px; */
+  /* font-weight: 600; */
+  transition: 0.5s;
+  cursor: pointer;
+}
+.let:hover{
+  transform: translateY(-1rem);
+  background: -webkit-linear-gradient(120deg, hsl(190, 100%, 50%), hsl(319, 100%, 50%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 /* * Risen - Bootstrap 5 Resume Template For Developers
  * Version: 2.0
