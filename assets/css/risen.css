@@ -36,7 +36,7 @@
 .link-project {
   height: 20px;
   width: 20px;
-  margin-bottom:6px;
+  margin-bottom: 6px;
 }
 .project-item-wrapper {
   display: flex;
@@ -54,13 +54,13 @@
 
 /* body{ background-color: #000; } */
 
-.animated{
+.animated {
   display: flex;
   /* margin-top: 20%; */
   align-items: center;
   justify-content: center;
 }
-.let{
+.let {
   color: #fff;
   /* font-size: 70px; */
   /* font-family: cursive; */
@@ -69,14 +69,53 @@
   transition: 0.5s;
   cursor: pointer;
 }
-.let:hover{
+.let:hover {
   transform: translateY(-1rem);
-  background: -webkit-linear-gradient(120deg, hsl(190, 100%, 50%), hsl(319, 100%, 50%));
+  background: -webkit-linear-gradient(
+    120deg,
+    hsl(190, 100%, 50%),
+    hsl(249, 82%, 45%)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.fa-telegram {
+  margin-left: -6px;
+  /* padding-top: -4px; */
+  width: var(--fa-fw-width, 2em);
+}
+.fa-email,
+.fa-phone {
+  margin-left: -4px;
+  /* padding-top: -4px; */
+  width: var(--fa-fw-width, 2em);
+}
+.fa-viver {
+  height: 20px;
+  padding-top: 4px;
+}
+.social-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .social-list {
+    /* justify-content:start; */
 
+    max-width: 250px;
+  }
 
+  .top-bar-inner .mx-auto {
+    margin-right: 200px !important;
+  }
+}
+.project-list {
+  padding: 0;
+  list-style: none;
+}
 
 /* * Risen - Bootstrap 5 Resume Template For Developers
  * Version: 2.0
